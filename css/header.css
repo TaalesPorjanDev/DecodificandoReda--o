@@ -29,7 +29,8 @@ li a {
     padding: 10px 18px;
 }
 
-li a:hover {
+
+.navegacao ul li:not(:has(a.botao-contato)):hover {
     transition: all 0.3s ease-in-out;
     border-bottom: 2px solid #9b6fb5;
 }
